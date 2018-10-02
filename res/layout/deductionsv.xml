@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical" 
+        
+         >
+<TextView 
+            
+              android:id="@+id/dvwinstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dvwinstructionsname"
+                android:textStyle="bold"
+                android:textColor="@color/tomato"
+            
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwdhra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamehra" />
+
+            <EditText
+                android:id="@+id/ethra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwlta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamelta" />
+
+            <EditText
+                android:id="@+id/etlta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwmedbills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamemedbills" />
+
+            <EditText
+                android:id="@+id/etmedbills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="@string/etmedbillsname"
+                
+                 >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwdtel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnametel" />
+
+            <EditText
+                android:id="@+id/ettel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwtrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnametrans" />
+
+            <EditText
+                android:id="@+id/ettrans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" 
+                android:text="@string/ettransname"
+                >
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwmedself"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamemedself" />
+
+            <EditText
+                android:id="@+id/etmedself"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwmedpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamemedpar" />
+
+            <EditText
+                android:id="@+id/etmedpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwhloan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamehloan" />
+
+            <EditText
+                android:id="@+id/ethloan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+       
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwpf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamepf" />
+
+            <EditText
+                android:id="@+id/etpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwppf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnameppf" />
+
+            <EditText
+                android:id="@+id/etppf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" 
+               
+                >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamelic" />
+
+            <EditText
+                android:id="@+id/etlic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwother80c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnameother80c" />
+
+            <EditText
+                android:id="@+id/etother80c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwequity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamequity" />
+
+            <EditText
+                android:id="@+id/etequity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" 
+               
+                >
+            </EditText>
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/vwotherdeduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnameotherdeduct" />
+
+            <EditText
+                android:id="@+id/etotherdeduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+         <Button
+            android:id="@+id/bttotaldeduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bttotaldeductionname"
+            
+             />
+        
+
+            <EditText
+                android:id="@+id/ettotalded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+        
+        <TextView 
+            
+              android:id="@+id/vwgoback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vwnamegoback"
+                android:textStyle="bold"
+                android:textColor="@color/tomato"
+            
+            />
+    </LinearLayout>
+
+    
+    
+    
+</ScrollView>

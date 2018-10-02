@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical" 
+      
+        >
+
+      <TextView 
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tventry"
+            android:textStyle="bold"
+             android:textColor="@color/darkred"  
+           
+               />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvocategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvocategoryname" />
+
+            <Spinner
+                android:id="@+id/sspocategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.0" >
+
+            <TextView
+                android:id="@+id/tvocincome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.65"
+                android:text="@string/tvoincomename" />
+
+            <EditText
+                android:id="@+id/setoincome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.35"
+                android:inputType="number" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.0" >
+
+            <TextView
+                android:id="@+id/stvbasicpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.65"
+                android:text="@string/stvbasicpayname" />
+
+            <EditText
+                android:id="@+id/setbasicpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.35"
+                android:ems="10"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvodeductions1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvodeductionsname1"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3.0" >
+
+                <TextView
+                    android:id="@+id/tvodeductions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.65"
+                    android:text="@string/tvodeductionsname"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/setodeductions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.35"
+                    android:hint="Total Deductions"
+                    android:inputType="number" >
+                </EditText>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sbtdeduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btdeductname"
+                android:textColor="@color/blue" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.0" >
+
+            <TextView
+                android:id="@+id/tvotax"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:text="@string/tvotaxname" />
+
+            <EditText
+                android:id="@+id/setotax"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:editable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="number" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.0" >
+
+            <TextView
+                android:id="@+id/stvtakehome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:text="@string/stvtakehomename" />
+
+            <EditText
+                android:id="@+id/settakehome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:editable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="number" >
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sbtochecktax"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sbtochecktaxname" />
+
+        <Button
+            android:id="@+id/sbtincrement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sbtincrementname" />
+    </LinearLayout>
+
+</ScrollView>
